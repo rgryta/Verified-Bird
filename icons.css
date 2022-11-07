@@ -1,0 +1,50 @@
+.gg-log-off {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    border-radius: 16px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border-top: 2px solid transparent
+}
+
+.gg-log-off::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    height: 8px;
+    width: 2px;
+    background: currentColor;
+    left: 5px;
+    bottom: 6px
+}
+
+.gg-undo {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 14px;
+    border: 2px solid;
+    border-left-color: transparent;
+    border-radius: 100px
+}
+
+.gg-undo::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: -3px;
+    left: -1px;
+    transform: rotate(-68deg)
+}
