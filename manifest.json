@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "Verified Bird",
-	"version": "2.0",
+	"version": "2.1",
 	"author": "Radosław Gryta",
 	"description": "Fix Twitter experience by making everyone verified or by replacing the iconic checkmark.",
 	"action": {
